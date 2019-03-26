@@ -97,4 +97,4 @@ get status
 
 > git diff
 
->
+> git push origin master                                         <----------------------push to repository
