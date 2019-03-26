@@ -90,3 +90,5 @@ get status
 			 Robert
 
    
+   
+> git commit -a -m  "Commit all changes"                              < ---------------------commint all changes
