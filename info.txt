@@ -91,4 +91,10 @@ get status
 
    
    
-> git commit -a -m  "Commit all changes"                              < ---------------------commint all changes
+> git commit -a -m  "Commit all changes"                              < ---------------------commint all changes 
+
+> git status -s
+
+> git diff
+
+>
