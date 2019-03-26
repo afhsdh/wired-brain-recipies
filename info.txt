@@ -1,0 +1,92 @@
+create repository
+
+
+copy url at the top of the page
+
+https://github.com/afhsdh/wired-brain-recipies.git
+
+
+need to add file to stageing area so thea
+
+>git git .    add all file to staging area
+
+> git add employees.txt
+
+
+
+PS C:\desktop\cafe_recipes> git add employees.txt
+
+						>git status
+						
+						PS C:\desktop\cafe_recipes>   git status
+						On branch master
+						Your branch is up to date with 'origin/master'.
+
+						Changes to be committed:
+						(use "git reset HEAD <file>..." to unstage)
+
+						modified:   employees.txt
+
+						Untracked files:
+						(use "git add <file>..." to include in what will be committed)
+
+						employees.txt.bak
+						readme.txt
+
+
+PS C:\desktop\cafe_recipes> 
+
+
+
+>git commit -m "first commint"    
+
+  
+     displays below
+
+			[master (root-commit) 428660a] first commit
+			1 file changed, 0 insertions(+), 0 deletions(-)
+			create mode 100644 README.md
+			PS C:\desktop\cafe_recipes> git remote add origin https://github.com/afhsdh/wired-brain-recipies.git
+			 PS C:\desktop\cafe_recipes> git push -u origin master
+			Enumerating objects: 3, done.
+			Counting objects: 100% (3/3), done.
+			Writing objects: 100% (3/3), 259 bytes | 259.00 KiB/s, done.
+			Total 3 (delta 0), reused 0 (delta 0)
+			To https://github.com/afhsdh/wired-brain-recipies.git
+			 * [new branch]      master -> master
+			Branch 'master' set up to track remote branch 'master' from 'origin'.
+			   
+			   
+next link  repositories 
+
+>git remote add origin https://github.com/afhsdh/wired-brain-recipies.git
+
+
+next push
+
+>git push -u origin master 
+
+
+
+get status
+>git status   
+
+		On branch master
+		Your branch is up to date with 'origin/master'.
+		
+		
+		
+>git diff --staged 
+
+			PS C:\desktop\cafe_recipes> git diff --staged
+			diff --git a/employees.txt b/employees.txt
+			index 90b1f9f..1492e97 100644
+			--- a/employees.txt
+			+++ b/employees.txt
+			@@ -1,3 +1,3 @@                                         <-------------------- + is file a line 1  3 changes
+			-Adrian
+			+Adrian | 1234
+			 Gus
+			 Robert
+
+   
