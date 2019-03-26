@@ -6,6 +6,9 @@ copy url at the top of the page
 https://github.com/afhsdh/wired-brain-recipies.git
 
 
+git init
+
+
 need to add file to stageing area so thea
 
 >git git .    add all file to staging area
@@ -98,3 +101,98 @@ get status
 > git diff
 
 > git push origin master                                         <----------------------push to repository
+
+
+--------------------------------------- git log command
+
+>git log --oneline
+  
+				182cbd3 info.txt update
+				3d03cb0 Commit changes
+				6e7fb63 info.txt update
+				a63ac7b Staged all changes
+				1863ddf vendor commin
+				9a7ed2d Adrian Gus Robert
+				a27c504 new files
+				428660a first commit
+				
+
+>git log --stat
+				commit 182cbd3107467a43d8f5ef10f79fc2e95c0beaea
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Tue Mar 26 10:08:29 2019 -0400
+
+				    info.txt update
+
+				 info.txt | 2 +-
+				 1 file changed, 1 insertion(+), 1 deletion(-)
+
+				commit 3d03cb0d6db6021af8113454766a8830a3d1f05c
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Tue Mar 26 09:58:02 2019 -0400
+
+				    Commit changes
+
+				 info.txt | 8 +++++++-
+				 1 file changed, 7 insertions(+), 1 deletion(-)
+
+				commit 6e7fb63e64553fde495abbee6bcc40ed67bf8740
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Tue Mar 26 09:42:57 2019 -0400
+
+				    info.txt update
+
+				 info.txt | 4 +++-
+				 1 file changed, 3 insertions(+), 1 deletion(-)
+
+				commit a63ac7b9540d325c82314551468b6b8781e6644e
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Tue Mar 26 09:13:21 2019 -0400
+
+				    Staged all changes
+
+				 vendor.txt | 3 ++-
+				 1 file changed, 2 insertions(+), 1 deletion(-)
+
+				commit 1863ddf4a0149dc048e15710f1fcac075379f747
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Tue Mar 26 09:08:24 2019 -0400
+
+				    vendor commin
+
+				 employees.txt |  2 +-
+				 info.txt      | 92 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+				 vendor.txt    |  1 +
+				 3 files changed, 94 insertions(+), 1 deletion(-)
+
+				commit 9a7ed2db6dcc4f2d8af0bf3a80fa6a340f8257d8
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Mon Mar 25 17:20:43 2019 -0400
+
+				    Adrian
+				    Gus
+				    Robert
+
+				 employees.txt | 1 +
+				 1 file changed, 1 insertion(+)
+
+				commit a27c504b33e03693da7545ebc92bcc1b2a4e5aa9
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Mon Mar 25 17:17:48 2019 -0400
+
+				    new files
+
+				 employees.txt | 2 ++
+				 vendor.txt    | 0
+				 2 files changed, 2 insertions(+)
+
+				commit 428660af9f1ce1bc435d50ee491f28687a926a55
+				Author: Adrian Harris <aharris@pharmaservices-us.com>
+				Date:   Mon Mar 25 15:47:08 2019 -0400
+
+				    first commit
+
+				 README.md | Bin 0 -> 48 bytes
+				 1 file changed, 0 insertions(+), 0 deletions(-)
+
+				PS C:\desktop\cafe_recipes> 
